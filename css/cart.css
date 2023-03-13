@@ -1,27 +1,19 @@
 
-
 .title {
     margin-bottom: 5vh;
 }
 
-.card {
+.cart-card {
     margin: auto;
     max-width: 950px;
     width: 90%;
-  
+    
     border-radius: 1rem;
     border: transparent;
-    background: #ddd;
-       
-        vertical-align: middle;
-        display: flex;
-        font-family: sans-serif;
-        font-size: 0.8rem;
-        font-weight: bold;
 }
 
 @media(max-width:767px) {
-    .card {
+    .cart-card {
         margin: 3vh auto;
     }
 }
@@ -42,9 +34,7 @@
 }
 
 .summary {
-    
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+   
     padding: 4vh;
     color: rgb(65, 65, 65);
 }
@@ -108,7 +98,7 @@ hr {
     margin-top: 1.25rem;
 }
 
-.cart-form {
+form {
     padding: 2vh 0;
 }
 
@@ -121,7 +111,7 @@ select {
     background-color: rgb(247, 247, 247);
 }
 
-#code {
+input {
     border: 1px solid rgba(0, 0, 0, 0.137);
     padding: 1vh;
     margin-bottom: 4vh;
@@ -134,7 +124,7 @@ input:focus::-webkit-input-placeholder {
     color: transparent;
 }
 
-.cart-btn {
+.checkout-btn {
     background-color: #000;
     border-color: #000;
     color: white;
@@ -145,7 +135,7 @@ input:focus::-webkit-input-placeholder {
     border-radius: 0;
 }
 
-.cart-btn:focus {
+.checkout-btn:focus {
     box-shadow: none;
     outline: none;
     box-shadow: none;
@@ -155,7 +145,7 @@ input:focus::-webkit-input-placeholder {
     transition: none;
 }
 
-.cart-btn:hover {
+.checkout-btn:hover:hover {
     color: white;
 }
 
